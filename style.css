@@ -1,0 +1,77 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Work+Sans:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* shard all info */
+.container-all{
+    width: 1200px;
+    height: auto;
+    margin: 0px auto;
+}
+.drescription-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+/* header section */
+header{
+    background: rgba(255, 144, 14, 0.10);
+}
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+}
+nav li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 15px;
+}
+nav h3{
+    font-size: 3rem;
+}
+.header-title{
+   text-align: center;
+   font-size: 3rem;
+}
+.header-description{
+    max-width: 700px;
+    margin: 0px auto;
+    text-align: center;
+}
+.container-all img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* Responsive media quariy  */
+/* Responsive for small mobiel device  */
+@media screen and (max-width:576px) {
+
+      .nav-section{
+        flex-direction: column;
+        max-width: 0px;
+      }
+    .container-all {
+        width: 0px;
+        height: auto;
+        margin: 0px auto;
+    }
+}
